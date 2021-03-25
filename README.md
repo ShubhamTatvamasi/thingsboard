@@ -35,6 +35,16 @@ spec:
 EOF
 ```
 
+Use the following default credentials:
+
+ 
+Role | ID | Password
+---|---|---
+Systen Administrator: | sysadmin@thingsboard.org | sysadmin
+Tenant Administrator: | tenant@thingsboard.org | tenant
+Customer User: | customer@thingsboard.org | customer
+
+
 delete everything:
 ```bash
 kubectl delete deploy/thingsboard svc/thingsboard ing/thingsboard
